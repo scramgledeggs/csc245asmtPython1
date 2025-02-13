@@ -73,7 +73,8 @@ for x in range(1,11):
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 x=0
-for x in range(len(numbers)):
+y=0
+for x in range(len(numbers+1)):
     y=y+x
 
 print("The sum of the numbers is:", y)
